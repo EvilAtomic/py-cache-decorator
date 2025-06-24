@@ -1,6 +1,8 @@
 from typing import Callable, Any
 
 def cache(func: Callable) -> Callable:
+    # Write your code here
+    pass
     cache_dict = {}
 
     def wrapper(*args, **kwargs) -> Any:
