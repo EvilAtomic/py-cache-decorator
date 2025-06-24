@@ -1,7 +1,5 @@
-from typing import Callable, Any
-
 def cache(func: Callable) -> Callable:
-    cache_dict = {}  # ← теперь у каждой оборачиваемой функции свой кэш
+    cache_dict = {}
 
     def wrapper(*args, **kwargs) -> Any:
         key = (args, tuple(sorted(kwargs.items())))
@@ -15,7 +13,6 @@ def cache(func: Callable) -> Callable:
             return result
 
     return wrapper
-
 
 @cache
 def long_time_func(a: int, b: int, c: int) -> int:
