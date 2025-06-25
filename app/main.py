@@ -25,5 +25,3 @@ def long_time_func(base: int, exponent: int, depth: int) -> int:
 @cache
 def long_time_func_2(numbers: tuple, power: int) -> list[int]:
     return [number ** power for number in numbers]
-
-
