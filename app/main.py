@@ -33,11 +33,3 @@ long_time_func_2((5, 6, 7), 5)
 long_time_func(1, 2, 3)
 long_time_func_2((5, 6, 7), 10)
 long_time_func_2((5, 6, 7), 10)
-
-
-long_time_func(1, 2, 3)
-long_time_func(2, 2, 3)
-long_time_func_2((5, 6, 7), 5)
-long_time_func(1, 2, 3)
-long_time_func_2((5, 6, 7), 10)
-long_time_func_2((5, 6, 7), 10)
